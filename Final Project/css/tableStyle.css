@@ -1,0 +1,439 @@
+#center{
+    width: 100%;
+    height: auto;
+    background: #efefef;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    position: relative;
+    padding: 120px 0px;
+}
+#center main{
+    width: 45%;
+    margin: auto;
+    height: auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background: white;
+}
+#center main>div{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    align-self:center;
+    width: 100%!important;
+}
+#center main table{
+    font-size: 0.9em;
+    color: rgb(117, 110, 110);
+}
+#center main table tbody tr td:nth-child(3) span{
+    padding: 2px 5px;
+    border-radius: 10px!important;
+    color: rgb(235, 226, 226);
+    font-size: 0.95em;
+}
+#center main table tbody tr:nth-child(1) td:nth-child(3) span{
+    background: #7863a0;
+}
+#center main table tbody tr:nth-child(2) td:nth-child(3) span{
+    background: #209ca9;
+}
+#center main table tbody tr:nth-child(3) td:nth-child(3) span{
+    background: #c7254e;
+}
+#center main table tbody tr:nth-child(4) td:nth-child(3) span{
+    background: #7863a0;
+}
+#center main table tbody tr:nth-child(5) td:nth-child(3) span{
+    background: #00bdd5;
+}
+
+#center .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+
+
+
+/*Responsive  Section */
+#Responsive {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    height: 450px;
+    position: relative;
+}
+#Responsive  .left{
+    padding: 20px 0px 0px 10px;
+    background: white;
+}
+#Responsive  .left h4{
+    font-size: 0.95em;
+    color: rgb(95, 93, 93);
+}
+#Responsive  .left p{
+    font-size: 0.85em;
+    color: rgb(95, 93, 93);
+}
+
+
+#Responsive  .left li{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    border-radius: 4px;
+    margin-left: 50px;
+    list-style: circle;
+}
+#Responsive  .right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 49px 0px;
+    background: #dfdbdb;    
+}
+
+#Responsive .right  main{
+    width: 70%;
+    margin: auto;
+    height: 350px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+#Responsive .right  main .table{
+    background-color: white!important;
+    font-size: 0.8em;
+    color: rgb(88, 84, 84);
+}
+
+
+#Responsive  .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+
+
+
+/*Striped  Section */
+#Striped {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    height: 450px;
+    position: relative;
+}
+#Striped  .left{
+    padding: 20px 0px 0px 10px;
+    background: white;
+}
+#Striped  .left h4{
+    font-size: 0.95em;
+    color: rgb(95, 93, 93);
+}
+#Striped  .left p{
+    font-size: 0.85em;
+    color: rgb(95, 93, 93);
+}
+
+
+#Striped  .left li{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    border-radius: 4px;
+    margin-left: 50px;
+    list-style: circle;
+}
+#Striped  .right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 49px 0px;
+    background: #dfdbdb;    
+}
+
+#Striped .right  main{
+    width: 85%;
+    margin: auto;
+    height: 350px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+#Striped .right  main .table{
+    background-color: white!important;
+    font-size: 0.8em;
+    color: rgb(88, 84, 84);
+}
+
+
+#Striped  .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+
+
+
+/*Bordered  Section */
+#Bordered {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    height: auto;
+    position: relative;
+}
+#Bordered  .left{
+    padding: 20px 0px 0px 10px;
+    background: white;
+}
+#Bordered  .left h4{
+    font-size: 0.95em;
+    color: rgb(95, 93, 93);
+}
+#Bordered  .left p{
+    font-size: 0.85em;
+    color: rgb(95, 93, 93);
+}
+
+
+#Bordered  .left li{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    border-radius: 4px;
+    margin-left: 50px;
+    list-style: circle;
+}
+#Bordered  .right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 39px 0px;
+    background: #dfdbdb;    
+}
+
+#Bordered .right  main{
+    width: 85%;
+    margin: auto;
+    height: 324px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+#Bordered .right  main .table{
+    background-color: white!important;
+    font-size: 0.8em;
+    color: rgb(88, 84, 84);
+}
+#Bordered .right  main .table tbody tr:nth-child(2n-1){
+    background: white;
+}
+
+#Bordered  .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+
+
+
+/*Hover  Section */
+#Hover {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    height: auto;
+    position: relative;
+}
+#Hover  .left{
+    padding: 20px 0px 0px 10px;
+    background: white;
+}
+#Hover .left h4{
+    font-size: 0.95em;
+    color: rgb(95, 93, 93);
+}
+#Hover .left p{
+    font-size: 0.85em;
+    color: rgb(95, 93, 93);
+}
+
+
+#Hover  .left li{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    border-radius: 4px;
+    margin-left: 50px;
+    list-style: circle;
+}
+#Hover  .right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 39px 0px;
+    background: #dfdbdb;    
+}
+
+#Hover .right  main{
+    width: 85%;
+    margin: auto;
+    height: 324px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+#Hover .right  main .table{
+    background-color: white!important;
+    font-size: 0.8em;
+    color: rgb(88, 84, 84);
+}
+#Hover .right  main .table tbody tr:nth-child(2n-1){
+    background: white;
+}
+#Hover .right  main .table tbody tr:hover{
+    background: rgb(247, 243, 243);
+}
+#Hover  .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+
+
+/*Condensed  Section */
+#Condensed {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    height: 400px;
+    position: relative;
+}
+#Condensed  .left{
+    padding: 20px 0px 0px 10px;
+    background: white;
+}
+#Condensed .left h4{
+    font-size: 0.95em;
+    color: rgb(95, 93, 93);
+}
+#Condensed .left p{
+    font-size: 0.85em;
+    color: rgb(95, 93, 93);
+}
+
+
+#Condensed  .left li{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    border-radius: 4px;
+    margin-left: 50px;
+    list-style: circle;
+}
+#Condensed  .right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 94px 0px;
+    background: #dfdbdb;    
+}
+
+#Condensed .right  main{
+    width: 85%;
+    margin: auto;
+    height: 210px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+#Condensed .right  main .table{
+    background-color: white!important;
+    font-size: 0.75em;
+    color: rgb(88, 84, 84);
+}
+#Condensed .right  main .table tbody tr:nth-child(2n-1){
+    background: white;
+}
+#Condensed .right  main .table tbody tr{
+    height: 20px;
+}
+#Condensed  .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}

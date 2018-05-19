@@ -1,0 +1,210 @@
+#center{
+    width: 100%;
+    height: auto;
+    background: #efefef;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    position: relative;
+    padding: 120px 0px;
+}
+#center main{
+    width: 40%;
+    margin: auto;
+}
+#center .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+#center .progress{
+    height: 10px;
+}
+#center .active{
+    position: relative;
+}
+#center .active .progress-bar{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #007bff;
+    transition: width .6s ease;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background: #28a745!important;
+    height: 100%;
+}
+@keyframes example {
+    0%   { left: -120px; top:0px;}
+    100% { left:475px; top:0px;}
+}
+
+/* Basic Section */
+#Color{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    height: 450px;
+    position: relative;
+}
+#Color .left{
+    padding: 20px 0px 0px 10px;
+    background: white;
+}
+#Color .left h4{
+    font-size: 0.85em;
+    color: gray;
+}
+#Color .left p{
+    font-size: 0.85em;
+    color: gray;
+}
+#Color .left li{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+#Color .right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 155px 0px;
+    background: #dfdbdb;    
+}
+#Color .right main{
+    width: 80%;
+}
+#Color .right main .progress{
+    margin-top: 10px;
+    height: 10px;
+}
+#Color .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+
+
+
+/*  Pager Section*/
+#Animation{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    height: 500px;
+    position: relative;
+}
+#Animation .left{
+    padding: 10px 0px 0px 10px;
+    background: white;
+    
+}
+#Animation .left h4{
+    font-size: 0.85em;
+    color: gray;
+}
+#Animation .left p{
+    font-size: 0.85em;
+    color: gray;
+}
+#Animation .left li{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    border-radius: 4px;
+}
+#Animation>.right{
+    background: #efefef;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 151px 0px;
+
+}
+#Animation .right main{
+    width: 75%;
+}
+#Animation .active{
+    position: relative;
+}
+#Animation .active .progress-bar{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    transition: width .6s ease;
+    position: absolute;
+    height: 100%;
+    width: 25%;
+}
+#Animation main .one{
+    background: #28a745!important;
+    animation-name: One;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#Animation main .two{
+    animation-name: exampleTwo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#Animation main .three{
+    animation-name: example3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes One {
+    0%   { left: -120px; top:0px;}
+    100% { left:600px; top:0px;}
+}
+@keyframes exampleTwo {
+    0%   { background: #007bff}
+    25% {background:  #28a745}
+    50%   { background: #c7254e}
+    75% { background: black}
+    100% { background: orange}
+}
+@keyframes example3 {
+    0%   { left: -120px; top:0px;background: #007bff}
+    100% { left:600px; top:0px; background: #c7254e}
+}
+
+#Animation .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}

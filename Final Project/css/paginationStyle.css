@@ -1,0 +1,175 @@
+#center{
+    width: 100%;
+    height: auto;
+    background: #efefef;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    position: relative;
+    padding: 120px 0px;
+}
+#center main{
+    width: 30%;
+    margin: auto;
+}
+#center .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+#center main ul li{
+    margin-left: 10px;
+
+}
+#center main ul li:nth-child(2) a{
+    background-color: #7863a0!important;
+    cursor: pointer;
+    color: white!important;
+
+}
+#center main ul li a{
+    color: black!important;
+    border-radius: 5px!important;
+    transition: all 0.2s ease-in-out;
+}
+#center main ul li a:hover{
+    border-color: #7863a0!important;
+    background-color: #7863a0!important;
+    cursor: pointer;
+    color: white!important;
+}
+
+/* Basic Section */
+#Basic{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    height: auto;
+    position: relative;
+}
+#Basic .left{
+    padding: 20px 0px 0px 10px;
+    background: white;
+}
+#Basic .left h4{
+    font-size: 0.85em;
+    color: gray;
+}
+#Basic .left p{
+    font-size: 0.85em;
+    color: gray;
+}
+#Basic .right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 146px 0px;
+    background: #efefef;    
+}
+#Basic .right main{
+    width: 80%;
+}
+#Basic main ul li{
+    margin-left: 10px;
+
+}
+#Basic main ul li:nth-child(2) a{
+    background-color: #7863a0!important;
+    cursor: pointer;
+    color: white!important;
+
+}
+#Basic main ul li a{
+    color: black!important;
+    border-radius: 5px!important;
+    transition: all 0.2s ease-in-out;
+}
+#Basic main nav:nth-child(2) ul li a{
+    color: black!important;
+    border-radius: 100%!important;
+    transition: all 0.2s ease-in-out;
+}
+#Basic main ul li a:hover{
+    border-color: #7863a0!important;
+    background-color: #7863a0!important;
+    cursor: pointer;
+    color: white!important;
+}
+#Basic .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+
+
+
+/*  Pager Section*/
+#Pager{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    height: 400px;
+    position: relative;
+}
+#Pager .left{
+    padding: 10px 0px 0px 10px;
+    background: white;
+    
+}
+#Pager .left h4{
+    font-size: 0.85em;
+    color: gray;
+}
+#Pager .left p{
+    font-size: 0.85em;
+    color: gray;
+}
+#Pager>.right{
+    background: #efefef;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 86px 0px;
+
+}
+#Pager .right main{
+    width: 95%;
+}
+#Pager .right main>section{
+    background: rgba(120, 99, 160, 0.96);
+    padding: 20px 10px;
+    margin: 20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    color: white;
+}
+#Pager .right main>section .righT{
+    margin-top: 15px;
+}
+#Pager .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}

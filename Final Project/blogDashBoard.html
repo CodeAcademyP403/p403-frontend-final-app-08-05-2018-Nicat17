@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script defer async src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js" integrity="sha384-F13mJAeqdsVJS5kJv7MZ4PzYmJ+yXXZkt/gEnamJGTXZFzYgAcVtNg5wBDrRgLg9"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/BlogStyle.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
+    <title></title>
+</head>
+
+<body>
+    <div class="loader"></div>
+
+    <!-- SIDEBAR SECTION START-->
+    <section id="sideBar" class="jssideBar">
+        <!-- Head -->
+        <header>
+            <a href="#">
+                <h1>
+                    <span>Wg</span>
+                    <span class="jslogoText">Board</span>
+                </h1>
+            </a>
+        </header>
+        <!-- Search Section -->
+        <section class="search mb-3">
+            <div class="input-group  mt-2">
+                <input type="text" class="form-control" id="navSearchInput" placeholder="Search.." aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" id="navSearchButton" type="button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Navigation -->
+        <nav>
+            <ul class="nav nav-pills nav-fill flex-column">
+                <!-- FirstLi -->
+                <li class="nav-item" data-toggle="collapse" data-target="#collapseFirstLi" aria-expanded="true" aria-controls="collapseFirstLi">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-home"></i>
+                        <span>DashBoard</span>
+                        <i class="far fa-arrow-alt-circle-down"></i>
+                    </a>
+                </li>
+                <ul id="collapseFirstLi" class="collapse" aria-labelledby="headingFirstLi" data-parent="#accordion">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="far fa-circle"></i>
+                            <span>Main Layout</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="onlineShop.html">
+                            <i class="far fa-circle"></i>
+                            <span>Online Shop</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogDashBoard.html">
+                            <i class="far fa-circle"></i>
+                            <span>Blog DashBoard</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- secondLi -->
+                <li class="nav-item" data-toggle="collapse" data-target="#collapsesecondLi" aria-expanded="true" aria-controls="collapsesecondLi">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-leaf"></i>
+                        <span>Ul Elements</span>
+                        <i class="far fa-arrow-alt-circle-down"></i>
+                    </a>
+                </li>
+                <ul id="collapsesecondLi" class="collapse" aria-labelledby="headingsecondLi" data-parent="#accordion">
+                    <li class="nav-item">
+                        <a class="nav-link" href="badges.html">
+                            <i class="far fa-circle"></i>
+                            <span>Badges</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="labels.html">
+                            <i class="far fa-circle"></i>
+                            <span>Labels</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="listGroups.html">
+                            <i class="far fa-circle"></i>
+                            <span>
+                                List Groups
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagination.html">
+                            <i class="far fa-circle"></i>
+                            <span>
+                                Paginations
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="panels.html">
+                            <i class="far fa-circle"></i>
+                            <span>Panels</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="progressBars.html">
+                            <i class="far fa-circle"></i>
+                            <span>Progress bars</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- thirdLi -->
+                <li class="nav-item" data-toggle="collapse" data-target="#collapsethirdLi" aria-expanded="true" aria-controls="collapsethirdLi">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-code"></i>
+                        <span>Components</span>
+                        <i class="far fa-arrow-alt-circle-down"></i>
+                    </a>
+                </li>
+                <ul id="collapsethirdLi" class="collapse" aria-labelledby="headingthirdLi" data-parent="#accordion">
+                    <li class="nav-item">
+                        <a class="nav-link" href="alerts.html">
+                            <i class="far fa-circle"></i>
+                            <span>Alerts</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tooltips.html">
+                            <i class="far fa-circle"></i>
+                            <span>Tooltips</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="popovers.html">
+                            <i class="far fa-circle"></i>
+                            <span>Popovers</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="modals.html">
+                            <i class="far fa-circle"></i>
+                            <span>Modals</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="buttons.html">
+                        <i class="fas fa-square"></i>
+                        <span>Buttons</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="form.html">
+                        <i class="fab fa-wpforms"></i>
+                        <span>Forms</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="table.html">
+                        <i class="fas fa-table"></i>
+                        <span>Tabels</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chars.html">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Charts</span>
+                        <span id="chartsNew">New</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Span Info -->
+        <section class="info">
+            <span>Summary information</span>
+        </section>
+        <!-- Progress Infomation -->
+        <section class="progress">
+            <article>
+                <span>Pending</span>
+                <span>37%</span>
+            </article>
+            <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 37%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <article>
+                <span>Approved</span>
+                <span>60%</span>
+            </article>
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <article>
+                <span>Rejected</span>
+                <span>3%</span>
+            </article>
+            <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 3%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </section>
+    </section>
+    <!-- SIDEBAR SECTION END-->
+
+    <!-- MAIN SECTION START-->
+    <main id="main" class="jsmain">
+        <!-- Head Nav Section -->
+        <nav class="head row">
+            <!-- Left Section -->
+            <div class="col-md-6 col-6 Left">
+                <div class="navIcon">
+                    <div class="close" id="close">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="open" id="open">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="cre" id="create">
+                        <i class="far fa-file"></i>
+                        <span>Create</span>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <div class="willOpen">
+                        <ul>
+                            <li>
+                                <a href="#">Publication</a>
+                            </li>
+                            <li>
+                                <a href="#">Project</a>
+                            </li>
+                            <li>
+                                <a href="#">Task Item</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="file">
+                        <i class="fab fa-mixcloud"></i>
+                        <span>File explorer</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Section -->
+            <div class="col-md-6 col-6 Right">
+                <div class="bellAll">
+                    <div class="bell">
+                        <i class="far fa-bell"></i>
+                    </div>
+                    <aside class="OpenForIcon">
+                        <header>
+                            <h4>Notifications</h4>
+                        </header>
+                        <ul>
+                            <li>
+                                <div class="img"></div>
+                                <section>
+                                    <div>
+                                        <strong>Phillip Sandoval</strong>
+                                        <span> liked your post
+                                        </span>
+                                    </div>
+                                    <p>2 minutes ago</p>
+                                </section>
+                            </li>
+                            <li>
+                                <div class="img"></div>
+                                <section>
+                                    <div>
+                                        <strong>Mary Riley</strong>
+                                        <span> liked your post
+                                        </span>
+                                    </div>
+                                    <p>2 minutes ago</p>
+                                </section>
+                            </li>
+                            <li>
+                                <div class="img"></div>
+                                <section>
+                                    <div>
+                                        <strong>Mary Riley</strong>
+                                        <span> liked your post
+                                        </span>
+                                    </div>
+                                    <p>2 minutes ago</p>
+                                </section>
+                            </li>
+                            <li>
+                                <div class="img"></div>
+                                <section>
+                                    <div>
+                                        <strong>Phillip Sandoval</strong>
+                                        <span> liked your post
+                                        </span>
+                                    </div>
+                                    <p>2 minutes ago</p>
+                                </section>
+                            </li>
+                            <li>
+                                <p>See all notifications</p>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="langAll">
+                    <div class="lang">
+                        <span>En</span>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <div class="willOpenLang con">
+                        <ul>
+                            <li>
+                                <a href="#">English</a>
+                            </li>
+                            <li>
+                                <a href="#">Deautsch</a>
+                            </li>
+                            <li>
+                                <a href="#">France</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="userAll">
+                    <div class="user">
+                        <span>Mary Riley</span>
+                        <i class="fas fa-angle-down"></i>
+                        <div class="image"></div>
+                    </div>
+                    <div class="willOpenUser con">
+                        <ul>
+                            <li>
+                                <i class="fas fa-user-circle"></i>
+                                <a href="#">Profile</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-tasks"></i>
+                                <a href="#">Tasks</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-sign-out-alt"></i>
+                                <a href="#">Sign out</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- showNav -->
+        <section class="showNav row">
+            <i class="fas fa-home"></i>
+            <a href="#">HOME</a>
+            <span>></span>
+            <a href="#">DASHBOARD</a>
+            <span>></span>
+            <p>MAIN PAGE</p>
+        </section>
+        <!-- Info Section -->
+        <article id="info">
+            <h2>Welcome back Mary!</h2>
+            <span>Get started with the control panel right now</span>
+        </article>
+        <!-- CircleProgress Section -->
+        <section id="CircleProgress" class="row mx-auto">
+            <div class="col-md-3">
+                <aside>
+                    <span>
+                        Visits
+                    </span>
+                    <p>
+                        2,3278
+                    </p>
+                    <main>
+                        <i class="fas fa-chart-line"></i>
+                    </main>
+                    <footer>
+                        <div>
+                            <span>
+                                Orders
+                            </span>
+                            <p>
+                                <i class="fas fa-arrow-up"></i>
+                                <span>
+                                    498
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <span>
+                                Sales
+                            </span>
+                            <p>
+                                <i class="fas fa-arrow-up"></i>
+                                <span>
+                                    388
+                                </span>
+                            </p>
+                        </div>
+                    </footer>
+                </aside>
+            </div>
+            <div class="col-md-3">
+                <aside>
+                    <span>
+                        Purchases
+                    </span>
+                    <p>
+                        $ 4,872
+                    </p>
+                    <main>
+                        <i class="far fa-credit-card"></i>
+                    </main>
+                    <footer>
+                        <div>
+                            <span>
+                                Returns
+                            </span>
+                            <p>
+                                <i class="fas fa-arrow-up"></i>
+                                <span>
+                                    24%
+                                </span>
+                            </p>
+                        </div>
+                    </footer>
+                </aside>
+            </div>
+            <div class="col-md-3">
+                <aside>
+                    <span>
+                        New users
+                    </span>
+                    <p>
+                        2,327
+                    </p>
+                    <main>
+                        <i class="far fa-user"></i>
+                    </main>
+                    <footer>
+                        <div>
+                            <span>
+                                Active customers
+                            </span>
+                            <p>
+                                <i class="fas fa-arrow-up"></i>
+                                <span>
+                                    338
+                                </span>
+                            </p>
+                        </div>
+                    </footer>
+                </aside>
+            </div>
+            <div class="col-md-3">
+                <aside>
+                    <span>
+                        New posts
+                    </span>
+                    <p>
+                        478
+                    </p>
+                    <main>
+                        <i class="far fa-window-restore"></i>
+                    </main>
+                    <footer>
+                        <div>
+                            <span>
+                                Approved
+                            </span>
+                            <p>
+                                <i class="fas fa-arrow-up"></i>
+                                <span>
+                                    1%
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <span>
+                                Rejected
+                            </span>
+                            <p>
+                                <i class="fas fa-arrow-up"></i>
+                                <span>
+                                    24%
+                                </span>
+                            </p>
+                        </div>
+                    </footer>
+                </aside>
+            </div>
+        </section>
+        <!-- Site visits Section and Users list -->
+        <section class="row mx-auto" id="visitSection">
+            <div class="col-md-8 visit">
+                <header>
+                    <div class="text">
+                        <h2>Site visits</h2>
+                        <p>Statistics of site visits by days of the week</p>
+                    </div>
+                    <div class="select">
+                        <p>
+                            <i class="far fa-clock"></i>
+                            SELECT RANGE
+                            <i class="fas fa-angle-down"></i>
+                        </p>
+                        <aside>
+                            <ul>
+                                <li>
+                                    <span>Week</span>
+                                </li>
+                                <li>
+                                    <span>Month</span>
+                                </li>
+                                <li>
+                                    <span>Year</span>
+                                </li>
+                            </ul>
+                        </aside>
+                    </div>
+                </header>
+                <main>
+                    <div id="visitContainer" style="height: 230px; width: 100%;"></div>
+                </main>
+            </div>
+            <!-- Users list -->
+            <div class="col-md-4 usersList">
+                <header>
+                    <h3>Users list</h3>
+                </header>
+                <div class="search">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Search.." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="append">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+                <main>
+                    <ul>
+                        <li>
+                            <div class="img"></div>
+                            <p>
+                                <span>Frances Brown</span>
+                                <span>Web-designer</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="img"></div>
+                            <p>
+                                <span>Amy Arnold</span>
+                                <span>Content manager</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="img"></div>
+                            <p>
+                                <span>Bruce Daniels</span>
+                                <span>Developer</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="img"></div>
+                            <p>
+                                <span>Frances Brown</span>
+                                <span>Web-designer</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="img"></div>
+                            <p>
+                                <span>Amy Arnold</span>
+                                <span>Content manager</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="img"></div>
+                            <p>
+                                <span>Bruce Daniels</span>
+                                <span>Developer</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="img"></div>
+                            <p>
+                                <span>Frances Brown</span>
+                                <span>Web-designer</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="img"></div>
+                            <p>
+                                <span>Amy Arnold</span>
+                                <span>Content manager</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="img"></div>
+                            <p>
+                                <span>Bruce Daniels</span>
+                                <span>Developer</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="img"></div>
+                            <p>
+                                <span>Bruce Daniels</span>
+                                <span>Developer</span>
+                            </p>
+                        </li>
+                    </ul>
+                </main>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer id="foot" class="row">
+            <!-- Left Section -->
+            <div class="col-md-4 left">
+                <header>
+                    <h4>Traffic sources</h4>
+                </header>
+                <main>
+                    <div id="trafficContainer" style="height: 370px; width: 100%;"></div>
+                </main>
+                <footer>
+                    <ul>
+                        <li>
+                            <p>
+                                <i class="fas fa-square"></i>
+                                <span>PC</span>
+                            </p>
+                            <p>57%</p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fas fa-square"></i>
+                                <span>Tabled</span>
+                            </p>
+                            <p>14%</p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fas fa-square"></i>
+                                <span>Mobile</span>
+                            </p>
+                            <p>29%</p>
+                        </li>
+                    </ul>
+                </footer>
+            </div>
+            <!-- Center Section -->
+            <div class="col-md-4 center">
+                <header>
+                    <h4>Traffic sources</h4>
+                </header>
+                <main>
+                    <i class="far fa-user"></i>
+                </main>
+                <footer>
+                    <article>
+                        less than 18
+                    </article>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 37%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <article>
+                        18-24
+                    </article>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <article>
+                        25-34
+                    </article>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 3%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <article>
+                        more than 35
+                    </article>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 3%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </footer>
+            </div>
+            <!-- Right Section -->
+            <div class="col-md-4 right">
+                <header>
+                    <h4>Recent activity</h4>
+                </header>
+                <main>
+                    <ul>
+                        <li>
+                            <p>
+                                3 minutes ago
+                            </p>
+                            <span>Valery is now following you</span>
+                        </li>
+                        <li>
+                            <p>
+                                12 minutes ago
+                            </p>
+                            <span>The CS has been successfully updated.</span>
+                        </li>
+                        <li>
+                            <p>Thu, 18 Jan 09:27 PM</p>
+                            <span>On the main disk runs out of space.</span>
+                        </li>
+                        <li>
+                            <p>Sun, 14 Jan 07:32 PM</p>
+                            <span>Ashley is logged in.</span>
+                        </li>
+                        <li>
+                            <p>
+                                3 minutes ago
+                            </p>
+                            <span>Valery is now following you</span>
+                        </li>
+                        <li>
+                            <p>
+                                12 minutes ago
+                            </p>
+                            <span>The CS has been successfully updated.</span>
+                        </li>
+                        <li>
+                            <p>Thu, 18 Jan 09:27 PM</p>
+                            <span>On the main disk runs out of space.</span>
+                        </li>
+                        <li>
+                            <p>Sun, 14 Jan 07:32 PM</p>
+                            <span>Ashley is logged in.</span>
+                        </li>
+                        <li>
+                            <p>Thu, 18 Jan 09:27 PM</p>
+                            <span>On the main disk runs out of space.</span>
+                        </li>
+                    </ul>
+                </main>
+            </div>
+        </footer>
+    </main>
+    <!-- MAIN SECTION END-->
+
+
+    <script src="js/main.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script>
+        var selectAccor = document.querySelector(".select>p");
+        var willopenAccor = document.querySelector(".select>aside");
+        var willopenAccorSpan = document.querySelectorAll(".select>aside span");
+
+        var conts = true;
+
+
+        // Toggle Effect 
+        selectAccor.addEventListener("click", function () {
+            if (conts) {
+                willopenAccor.style.display = "block";
+
+                setTimeout(function () {
+                    willopenAccor.style.opacity = "1";
+
+                    for (var el of willopenAccorSpan) {
+                        el.style.opacity = 1;
+                    }
+
+                    willopenAccor.style.height = "110px";
+
+                }, 100);
+                conts = false;
+            }
+            else {
+                willopenAccor.style.opacity = "0";
+
+                for (var el of willopenAccorSpan) {
+                    el.style.opacity = 0;
+                }
+                willopenAccor.style.height = "0px";
+
+                setTimeout(function () {
+                    willopenAccor.style.display = "none";
+                }, 100);
+
+                conts = true;
+            }
+        });
+
+
+
+        window.onload = function () {
+
+            var chartVisit = new CanvasJS.Chart("visitContainer", {
+                animationEnabled: true,
+                title: {
+                    text: ""
+                },
+                axisY: {
+                    title: "",
+                    titleFontColor: "#4F81BC",
+                    lineColor: "#4F81BC",
+                    labelFontColor: "#000",
+                    tickColor: "#4F81BC"
+                },
+                axisY2: {
+                    title: "",
+                    titleFontColor: "#C0504E",
+                    lineColor: "#C0504E",
+                    labelFontColor: "#C0504E",
+                    tickColor: "#C0504E"
+                },
+                toolTip: {
+                    shared: true
+                },
+                legend: {
+                    cursor: "pointer",
+                    itemclick: toggleDataSeries
+                },
+                data: [{
+                    type: "column",
+                    name: "",
+                    legendText: "",
+                    showInLegend: true,
+                    dataPoints: [
+                        { label: "Mon", y: 266.21 },
+                        { label: "Tue", y: 302.25 },
+                        { label: "Wed", y: 157.20 },
+                        { label: "Thu", y: 148.77 },
+                        { label: "Fri", y: 101.50 },
+                        { label: "Sat", y: 97.8 }
+                    ]
+                },
+                {
+                    type: "column",
+                    name: "",
+                    legendText: "",
+                    axisYType: "secondary",
+                    showInLegend: true,
+                    dataPoints: [
+                        { label: "Mon", y: 10.46 },
+                        { label: "Tue", y: 2.27 },
+                        { label: "Wed", y: 3.99 },
+                        { label: "Thu", y: 4.45 },
+                        { label: "Fri", y: 2.92 },
+                        { label: "Sat", y: 3.1 }
+                    ]
+                }]
+            });
+            chartVisit.render();
+
+            function toggleDataSeries(e) {
+                if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                    e.dataSeries.visible = false;
+                }
+                else {
+                    e.dataSeries.visible = true;
+                }
+                chartVisit.render();
+            }
+
+
+
+
+
+            var chartTraffic = new CanvasJS.Chart("trafficContainer", {
+                exportEnabled: true,
+                animationEnabled: true,
+                title: {
+                    text: ""
+                },
+                legend: {
+                    cursor: "pointer",
+                    itemclick: explodePie
+                },
+                data: [{
+                    type: "pie",
+                    showInLegend: true,
+                    toolTipContent: "{name}: <strong>{y}%</strong>",
+                    indexLabel: "{name} - {y}%",
+                    dataPoints: [
+                        { y: 26, name: "", exploded: true },
+                        { y: 20, name: "" },
+                        { y: 5, name: "" },
+                        { y: 3, name: "" },
+                        { y: 7, name: "" },
+                        { y: 17, name: "" },
+                        { y: 22, name: "" }
+                    ]
+                }]
+            });
+            chartTraffic.render();
+        }
+
+        function explodePie(e) {
+            if (typeof (e.dataSeries.dataPoints[e.dataPointIndex].exploded) === "undefined" || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
+                e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
+            } else {
+                e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
+            }
+            e.chartTraffic.render();
+
+        }
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,418 @@
+@media (min-width: 1200px){
+    #graphicSection .col-xl-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 32.333333%;
+    }
+    #center.btn main button {
+        font-size: 0.75em;
+    }
+    #Colors .right main button {
+        font-size: 0.75em;
+    }
+    #Outline .right main button {
+        font-size: 0.75em;
+    }
+    #Icon .right main button i{
+        font-size: 0.8em;
+    }
+    #Custom .right main button {
+        font-size: 0.75em;
+    }
+    #Sizes .right main button{
+        font-size: 0.75em;
+    }
+    #Vertical .right main label {
+        font-size: 0.55em;
+    }
+    #GroupSize .right main label {
+        font-size: 0.55em;
+    }
+   
+}
+@media (max-width: 1200px){
+    #graphicSection .task{
+        padding:20px 15px;
+        margin: 10px 10px 0px 0px;
+    }
+    #graphicSection .totalProgress{
+        margin: 12px 0px;
+    }
+    #center.btn main button {
+        font-size: 0.45em;
+    }
+    #Colors .right main button {
+        font-size: 0.45em;
+    }
+    #Outline .right main button {
+        font-size: 0.45em;
+    }
+    #Icon .right main button i{
+        font-size: 0.8em;
+    }
+    #Custom .right main button {
+        font-size: 0.45em;
+    }
+    #Sizes .right main button{
+        font-size: 0.45em;
+    }
+    #Vertical .right main label {
+        font-size: 0.55em;
+    }
+    #GroupSize .right main label {
+        font-size: 0.55em;
+    }
+    #Custom .right footer label span:nth-child(1){
+        font-size: 0.7em;
+    }
+    #Custom footer .checkmark {
+        height: 15px;
+        width: 15px;
+    }
+    /* Table Page */
+    #center.tab  main td{
+        font-size: 0.6em;
+    }
+    #Responsive .right main {
+        width: 100%;
+    }
+    #Responsive .right main .table td, .table th{
+        font-size: 0.4em;
+    }
+    #Striped .right main {
+        width: 100%;
+    }
+    #Striped .right main .table td, .table th{
+        font-size: 0.4em;
+    }
+    #Bordered .right main {
+        width: 100%;
+    }
+    #Bordered .right main .table td, .table th{
+        font-size: 0.4em;
+    }
+    #Hover .right main {
+        width: 100%;
+    }
+    #Hover .right main .table td, .table th{
+        font-size: 0.4em;
+    }
+    #Condensed .right main {
+        width: 100%;
+    }
+    #Condensed .right main .table td, .table th{
+        font-size: 0.4em;
+    }
+    #Placement main #rightBtn{
+        top: -26px;
+        right: -100%;
+    }
+}
+@media (max-width: 993px){
+    #accor{
+        margin-top: 50px;
+    } 
+}
+
+@media (min-width: 768px){
+    .graphicSection .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 47%;
+    }
+    
+}
+
+/* Side bar Section for Phone */
+@media (max-width: 768px){
+    #sideBar{
+        position: fixed; 
+        z-index: 100000;
+        width: 0px;
+        height: 0px;
+        transition: all 0.01s ease-in-out;
+        overflow-x: hidden;
+    }
+    #main .head{
+        height: 55px;
+        margin: 0px!important;
+        padding: 0px;
+        background: white; 
+        position: fixed;
+        z-index: 200000;
+        margin-top: -55px;
+        transition: all 0.2s ease-in-out; 
+        width: 100%;
+    }
+    #main{
+        width: 100%;
+        margin-left: 0px;
+        float: left;
+        height: auto;
+        padding: 0px;
+        background: #e7e7e7;
+        transition: all 0.2s ease-in-out; 
+    }
+    #foot .left main .img{
+        width: 20%;
+    }
+    #foot .left main section .text{
+        width: 80%;
+    }
+    #accor{
+        margin-top: 50px;
+    }  
+    #main .head .option div span{
+        display: none;
+    }
+    #main .head .option div i.fa-file{
+        display: none;
+    }
+    #main .head .Right .langAll{
+        padding: 10px 15px;
+    }
+    #main .head .Right .langAll i{
+        display: none;
+    }
+    #main .head .Right .bellAll{
+        padding: 10px;
+        margin: 0px;
+    }
+    #main .head .Right .bellAll i{
+        margin: 0px;
+    }
+    #main .head .Right .userAll{
+        padding: 10px;
+        left: 0;
+    }
+    #main .head .Right .userAll i{
+        display: none;
+    }
+    #main .head .Right .userAll span{
+        display: none;
+    }
+    #main .head .Right .OpenForIcon{
+        left: -164px; 
+    }
+    #main .head .Right .willOpenLang{
+        left: -55px;
+    }
+    #main .head .Right .willOpenUser{
+        left: -103px;
+    }
+    #main .head .Left .file{
+        padding: 5px 15px;
+    }
+    #main .head .Left{
+        padding: 0px;
+    }
+    #main .head .Left .navIcon .open{
+        display: block;
+        opacity: 1;
+    }
+    #main .head .Left .navIcon .close{
+        display: none;
+    }
+    .rotateIcon{
+        animation-duration: 0.08s;
+    }
+    #graphicSection .graphic footer {
+        padding-left: 5px;
+    }
+    #graphicSection {
+        padding-left: 0px;
+    }
+    #foot {
+        margin: 0px;
+        padding: 0px;
+    }
+    #foot .left main section .text p:nth-of-type(1) span:nth-child(2){
+       display: inline-block;
+       margin-top: 15px;
+    }
+    #main .head .Right {
+        margin-top: -5px;
+    }
+    /* blogDashBoard Page */
+    #visitSection .visit{
+        margin-left: 0px;
+    }
+    #visitSection .usersList{
+        margin-left: 0px;
+    }
+    #foot {
+        width: 100%;
+        margin: auto;
+    }
+    /* badges page */
+    #center main {
+        width: 84%;
+        margin: auto;
+    }
+    #center {
+        margin: 0px;
+    }
+    /* labels page */
+    #main #alternatives .right {
+        font-size: 0.65em;
+    }
+    /* listGroup page*/
+    #Basic .right main {
+        width: 118%;
+    }
+    #Flexibility .left{
+        height: 200px;
+    }
+    #Flexibility .right main {
+        width: 118%;
+    }
+    #Contextual .right main {
+        width: 118%;
+    }
+    /* pagination page*/
+    .pag#Basic .right main {
+        width: 99%;
+    }
+    #center.pag nav{
+        font-size: 0.6em;
+    }
+    /* tooltip page */
+    #Placement .right main button{
+        width: 89%;
+    }
+    #Placement .right main {
+        width: 63%;
+    }
+    
+    #center main #btn{
+        right: -222px;
+    }
+    #Placement main #rightBtn {
+        right: -90%;
+    }
+    /* popovers page */
+    #Dismissable .right main button,#Dismissable .right main a{
+        font-size: 0.6em;
+    }
+    /* modal  page*/
+    #Sizes .right main section button {
+        font-size: 0.8em;
+    }
+    /* Button Page */
+    #center.btn main button {
+        font-size: 0.45em;
+    }
+    #Colors .right main button {
+        font-size: 0.45em;
+    }
+    #Outline .right main button {
+        font-size: 0.45em;
+    }
+    #Icon .right main button i{
+        font-size: 0.8em;
+    }
+    #Custom .right main button {
+        font-size: 0.45em;
+    }
+    #Sizes .right main button{
+        font-size: 0.45em;
+    }
+    #Vertical .right main label {
+        font-size: 0.55em;
+    }
+    #GroupSize .right main label {
+        font-size: 0.55em;
+    }
+    #GroupSize .right main div:nth-child(1) label {
+        width: 23%;
+    }
+    #GroupSize .right main div:nth-child(2) label {
+        width: 21%;
+    }
+    #GroupSize .right main div:nth-child(3) label {
+        width: 19%;
+    }
+
+    #GroupSize .right main div:nth-child(4) label {
+        width: 17%;
+    }
+    #Icon .right main {
+        width: 100%;
+    }
+    #Custom .right footer label span:nth-child(1){
+        font-size: 0.5em;
+    }
+    #Custom footer .checkmark {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+@media (max-width: 500px){
+    section.center #accordion{
+       overflow-x: hidden;
+       font-size: 0.7em;
+    } 
+    section.center #accordion .left article p{
+        font-size: 0.65em;
+    }
+    section.center #accordion .right p{
+        font-size: 0.7em;
+    }
+    #center.btn main button {
+        font-size: 0.45em;
+    }
+    #Colors .right main button {
+        font-size: 0.45em;
+    }
+    #Outline .right main button {
+        font-size: 0.45em;
+    }
+    #Icon .right main button i{
+        font-size: 0.8em;
+    }
+    #Custom .right main button {
+        font-size: 0.45em;
+    }
+    #Sizes .right main button{
+        font-size: 0.45em;
+    }
+    #Vertical .right main label {
+        font-size: 0.35em;
+    }
+    #GroupSize .right main label {
+        font-size: 0.55em;
+    }
+    #Outline .right main {
+        width: 99%;
+    }
+    #Colors .right main { 
+        width: 99%;
+    }
+    #center.btn main {
+        width: 99%;
+    } 
+    #GroupSize .right main div:nth-child(1) label {
+        width: 24%;
+    }
+    #GroupSize .right main div:nth-child(2) label {
+        width: 23%;
+    }
+    #GroupSize .right main div:nth-child(3) label {
+        width: 22%;
+    }
+
+    #GroupSize .right main div:nth-child(4) label {
+        width: 21%;
+    } 
+}
+@media (max-width: 576px){
+    #visitSection .usersList{
+        margin-top: 10px;
+    }
+}
+@media (min-width: 576px){
+    #center main .modal .modal-dialog{
+        max-width: 600px!important;
+    }
+}

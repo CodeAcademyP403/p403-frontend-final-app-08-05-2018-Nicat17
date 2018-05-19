@@ -1,0 +1,380 @@
+#center{
+    width: 100%;
+    height: auto;
+    background: #efefef;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    position: relative;
+    padding: 120px 0px;
+}
+#center main{
+    width: 45%;
+    margin: auto;
+    height: 350px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: white;
+}
+
+
+#center .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+
+
+
+/*Line  Section */
+#Line {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    height: auto;
+    position: relative;
+}
+#Line  .left{
+    padding: 20px 0px 0px 10px;
+    background: white;
+}
+#Line  .left h4{
+    font-size: 0.95em;
+    color: rgb(95, 93, 93);
+}
+#Line  .left p{
+    font-size: 0.85em;
+    color: rgb(95, 93, 93);
+}
+
+#Line  .right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 49px 0px;
+    background: #dfdbdb;    
+}
+
+#Line .right  main{
+    width: 90%;
+    margin: auto;
+    height: 350px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+
+#Line  .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+
+
+
+/*Bar  Section */
+#Bar  {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    position: relative;
+    height: auto;
+}
+#Bar   .left{
+    padding: 20px 0px 0px 10px;
+    background: white; 
+}
+#Bar   .left h4{
+    font-size: 0.95em;
+    color: rgb(95, 93, 93);
+}
+#Bar   .left p{
+    font-size: 0.85em;
+    color: rgb(95, 93, 93);
+}
+
+
+#Bar   .left li{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    border-radius: 4px;
+    margin-left: 50px;
+    list-style: circle;
+}
+#Bar   .right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 49px 0px;
+    background: #dfdbdb;    
+}
+
+#Bar  .right  main{
+    width: 95%;
+    margin: auto;
+    height: 350px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#Bar  .right  main .table{
+    background-color: white!important;
+    font-size: 0.8em;
+    color: rgb(88, 84, 84);
+}
+
+
+#Bar .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+
+
+
+/*Radar  Section */
+#Radar {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    height: auto;
+    position: relative;
+}
+#Radar  .left{
+    padding: 20px 0px 0px 10px;
+    background: white;
+}
+#Radar  .left h4{
+    font-size: 0.95em;
+    color: rgb(95, 93, 93);
+}
+#Radar  .left p{
+    font-size: 0.85em;
+    color: rgb(95, 93, 93);
+}
+
+
+#Radar  .left li{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    border-radius: 4px;
+    margin-left: 50px;
+    list-style: circle;
+}
+#Radar  .right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 39px 0px;
+    background: #dfdbdb;    
+}
+
+#Radar .right  main{
+    width: 95%;
+    margin: auto;
+    height: 324px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#Radar .right  main .table{
+    background-color: white!important;
+    font-size: 0.8em;
+    color: rgb(88, 84, 84);
+}
+#Radar .right  main .table tbody tr:nth-child(2n-1){
+    background: white;
+}
+
+#Radar  .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+
+
+
+/*Polar  Section */
+#Polar {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    height: auto;
+    position: relative;
+}
+#Polar  .left{
+    padding: 20px 0px 0px 10px;
+    background: white;
+}
+#Polar .left h4{
+    font-size: 0.95em;
+    color: rgb(95, 93, 93);
+}
+#Polar .left p{
+    font-size: 0.85em;
+    color: rgb(95, 93, 93);
+}
+
+
+#Polar  .left li{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    border-radius: 4px;
+    margin-left: 50px;
+    list-style: circle;
+}
+#Polar  .right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 39px 0px;
+    background: #dfdbdb;    
+}
+
+#Polar .right  main{
+    width: 95%;
+    margin: auto;
+    height: 324px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#Polar .right  main .table{
+    background-color: white!important;
+    font-size: 0.8em;
+    color: rgb(88, 84, 84);
+}
+#Polar .right  main .table tbody tr:nth-child(2n-1){
+    background: white;
+}
+#Hover .right  main .table tbody tr:hover{
+    background: rgb(247, 243, 243);
+}
+#Polar  .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+
+
+/*Condensed  Section */
+#Doughnut {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    position: relative;
+    height: auto;
+}
+#Doughnut  .left{
+    padding: 20px 0px 0px 10px;
+    background: white;   
+}
+#Doughnut .left h4{
+    font-size: 0.95em;
+    color: rgb(95, 93, 93);
+}
+#Doughnut .left p{
+    font-size: 0.85em;
+    color: rgb(95, 93, 93);
+}
+
+
+#Doughnut  .left li{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    border-radius: 4px;
+    margin-left: 50px;
+    list-style: circle;
+}
+#Doughnut  .right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    background: #dfdbdb;    
+}
+
+#Doughnut .right  main{
+    width: 95%;
+    margin: auto;
+    height: 600px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 20px;
+}
+#Doughnut  .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}

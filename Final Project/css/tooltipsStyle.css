@@ -1,0 +1,197 @@
+#center{
+    width: 100%;
+    height: auto;
+    background: #efefef;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    position: relative;
+    padding: 120px 0px;
+}
+#center main{
+    width: 45%;
+    margin: auto;
+    height: 300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    align-self:center;
+    background: white;
+    padding: 20px;
+}
+#center main .input-group, #center main .check, #center main .btnTool{
+    position: relative;
+    z-index: 1;
+}
+#center main #inp, #center main #check,#center main #btn{
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    height: 30px;
+    background: #555;
+    position: absolute;
+    transform: translateX(-50%);
+    display: block;
+    z-index: 2;
+    border-radius: 5px!important;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+}
+#center main #inp{
+    width: 20%;
+    top: -44px;
+    left: 50%;
+}
+#center main #check{
+    width: 120%;
+    top: -44px;
+    left: 50%;
+}
+#center main #btn{
+    width: 120%;
+    top: 4px;
+    right: -252px;
+}
+#center main p{
+    font-size: 0.85em;
+    font-weight: bold;
+    color: rgb(58, 54, 54);
+    margin-bottom: 15px;
+}
+#center main .check{
+    font-size: 0.85em;
+    color: rgb(95, 86, 86);
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+#center .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}
+
+
+
+/*Dismissable Section */
+#Placement{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    height: 450px;
+    position: relative;
+}
+#Placement .left{
+    padding: 20px 0px 0px 10px;
+    background: white;
+}
+#Placement .left h4{
+    font-size: 0.85em;
+    color: gray;
+}
+#Placement .left p{
+    font-size: 0.85em;
+    color: gray;
+}
+#Placement .left li{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+#Placement .right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    padding: 80px 0px;
+    background: #dfdbdb;    
+}
+#Placement .right main{
+    padding: 83px 0px;
+    width: 68%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    align-self:center;
+}
+#Placement .right main button{
+    width: 160%;
+    background: darkviolet;
+    border-color: darkviolet;
+    margin: 12px;
+}
+
+
+#Placement main>section>div{
+    position: relative;
+    z-index: 1;
+}
+#Placement main>section>div>section{
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    height: 30px;
+    background: #555;
+    position: absolute;
+    transform: translateX(-50%);
+    display: block;
+    z-index: 2;
+    border-radius: 5px!important;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    width: 60%;
+}
+#Placement main #topBtn{
+    top: -51%;
+    left: 95%;
+}
+#Placement main #rightBtn{
+    top: 15px;
+    right: -177%;
+}
+#Placement main #leftBtn{
+    top: 17px;
+    left: -28px;
+}
+#Placement main #bottomBtn{
+    bottom: -29px;
+    right: -55px;
+}
+
+#Placement .rightTop{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border-radius: 5px!important;
+}

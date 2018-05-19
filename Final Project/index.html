@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script defer async src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js" integrity="sha384-F13mJAeqdsVJS5kJv7MZ4PzYmJ+yXXZkt/gEnamJGTXZFzYgAcVtNg5wBDrRgLg9"
+        crossorigin="anonymous"></script>
+
+    <link href="css/dcalendar.picker.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
+    <title></title>
+</head>
+
+<body>
+    <div class="loader"></div>
+
+    <!-- SIDEBAR SECTION START-->
+    <section id="sideBar" class="jssideBar">
+        <!-- Head -->
+        <header>
+            <a href="#">
+                <h1>
+                    <span>Wg</span>
+                    <span class="jslogoText">Board</span>
+                </h1>
+            </a>
+        </header>
+        <!-- Search Section -->
+        <section class="search mb-3">
+            <div class="input-group  mt-2">
+                <input type="text" class="form-control" id="navSearchInput" placeholder="Search.." aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" id="navSearchButton" type="button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Navigation -->
+        <nav>
+            <ul class="nav nav-pills nav-fill flex-column">
+                <!-- FirstLi -->
+                <li class="nav-item" data-toggle="collapse" data-target="#collapseFirstLi" aria-expanded="true" aria-controls="collapseFirstLi">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-home"></i>
+                        <span>DashBoard</span>
+                        <i class="far fa-arrow-alt-circle-down"></i>
+                    </a>
+                </li>
+                <ul id="collapseFirstLi" class="collapse" aria-labelledby="headingFirstLi" data-parent="#accordion">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="far fa-circle"></i>
+                            <span>Main Layout</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="onlineShop.html">
+                            <i class="far fa-circle"></i>
+                            <span>Online Shop</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogDashBoard.html">
+                            <i class="far fa-circle"></i>
+                            <span>Blog DashBoard</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- secondLi -->
+                <li class="nav-item" data-toggle="collapse" data-target="#collapsesecondLi" aria-expanded="true" aria-controls="collapsesecondLi">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-leaf"></i>
+                        <span>Ul Elements</span>
+                        <i class="far fa-arrow-alt-circle-down"></i>
+                    </a>
+                </li>
+                <ul id="collapsesecondLi" class="collapse" aria-labelledby="headingsecondLi" data-parent="#accordion">
+                    <li class="nav-item">
+                        <a class="nav-link" href="badges.html">
+                            <i class="far fa-circle"></i>
+                            <span>Badges</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="labels.html">
+                            <i class="far fa-circle"></i>
+                            <span>Labels</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="listGroups.html">
+                            <i class="far fa-circle"></i>
+                            <span>
+                                List Groups
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagination.html">
+                            <i class="far fa-circle"></i>
+                            <span>
+                                Paginations
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="panels.html">
+                            <i class="far fa-circle"></i>
+                            <span>Panels</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="progressBars.html">
+                            <i class="far fa-circle"></i>
+                            <span>Progress bars</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- thirdLi -->
+                <li class="nav-item" data-toggle="collapse" data-target="#collapsethirdLi" aria-expanded="true" aria-controls="collapsethirdLi">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-code"></i>
+                        <span>Components</span>
+                        <i class="far fa-arrow-alt-circle-down"></i>
+                    </a>
+                </li>
+                <ul id="collapsethirdLi" class="collapse" aria-labelledby="headingthirdLi" data-parent="#accordion">
+                    <li class="nav-item">
+                        <a class="nav-link" href="alerts.html">
+                            <i class="far fa-circle"></i>
+                            <span>Alerts</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tooltips.html">
+                            <i class="far fa-circle"></i>
+                            <span>Tooltips</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="popovers.html">
+                            <i class="far fa-circle"></i>
+                            <span>Popovers</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="modals.html">
+                            <i class="far fa-circle"></i>
+                            <span>Modals</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="buttons.html">
+                        <i class="fas fa-square"></i>
+                        <span>Buttons</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="form.html">
+                        <i class="fab fa-wpforms"></i>
+                        <span>Forms</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="table.html">
+                        <i class="fas fa-table"></i>
+                        <span>Tabels</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chars.html">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Charts</span>
+                        <span id="chartsNew">New</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Span Info -->
+        <section class="info">
+            <span>Summary information</span>
+        </section>
+        <!-- Progress Infomation -->
+        <section class="progress">
+            <article>
+                <span>Pending</span>
+                <span>37%</span>
+            </article>
+            <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 37%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <article>
+                <span>Approved</span>
+                <span>60%</span>
+            </article>
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <article>
+                <span>Rejected</span>
+                <span>3%</span>
+            </article>
+            <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 3%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </section>
+    </section>
+    <!-- SIDEBAR SECTION END-->
+
+    <!-- MAIN SECTION START-->
+    <main id="main" class="jsmain">
+        <!-- Head Nav Section -->
+        <nav class="head row">
+            <!-- Left Section -->
+            <div class="col-md-6 col-6 Left">
+                <div class="navIcon">
+                    <div class="close" id="close">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="open" id="open">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="cre" id="create">
+                        <i class="far fa-file"></i>
+                        <span>Create</span>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <div class="willOpen">
+                        <ul>
+                            <li>
+                                <a href="#">Publication</a>
+                            </li>
+                            <li>
+                                <a href="#">Project</a>
+                            </li>
+                            <li>
+                                <a href="#">Task Item</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="file">
+                        <i class="fab fa-mixcloud"></i>
+                        <span>File explorer</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Section -->
+            <div class="col-md-6 col-6 Right">
+                <div class="bellAll">
+                    <div class="bell">
+                        <i class="far fa-bell"></i>
+                    </div>
+                    <aside class="OpenForIcon">
+                        <header>
+                            <h4>Notifications</h4>
+                        </header>
+                        <ul>
+                            <li>
+                                <div class="img"></div>
+                                <section>
+                                    <div>
+                                        <strong>Phillip Sandoval</strong>
+                                        <span> liked your post
+                                        </span>
+                                    </div>
+                                    <p>2 minutes ago</p>
+                                </section>
+                            </li>
+                            <li>
+                                <div class="img"></div>
+                                <section>
+                                    <div>
+                                        <strong>Mary Riley</strong>
+                                        <span> liked your post
+                                        </span>
+                                    </div>
+                                    <p>2 minutes ago</p>
+                                </section>
+                            </li>
+                            <li>
+                                <div class="img"></div>
+                                <section>
+                                    <div>
+                                        <strong>Mary Riley</strong>
+                                        <span> liked your post
+                                        </span>
+                                    </div>
+                                    <p>2 minutes ago</p>
+                                </section>
+                            </li>
+                            <li>
+                                <div class="img"></div>
+                                <section>
+                                    <div>
+                                        <strong>Phillip Sandoval</strong>
+                                        <span> liked your post
+                                        </span>
+                                    </div>
+                                    <p>2 minutes ago</p>
+                                </section>
+                            </li>
+                            <li>
+                                <p>See all notifications</p>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="langAll">
+                    <div class="lang">
+                        <span>En</span>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <div class="willOpenLang con">
+                        <ul>
+                            <li>
+                                <a href="#">English</a>
+                            </li>
+                            <li>
+                                <a href="#">Deautsch</a>
+                            </li>
+                            <li>
+                                <a href="#">France</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="userAll">
+                    <div class="user">
+                        <span>Mary Riley</span>
+                        <i class="fas fa-angle-down"></i>
+                        <div class="image"></div>
+                    </div>
+                    <div class="willOpenUser con">
+                        <ul>
+                            <li>
+                                <i class="fas fa-user-circle"></i>
+                                <a href="#">Profile</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-tasks"></i>
+                                <a href="#">Tasks</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-sign-out-alt"></i>
+                                <a href="#">Sign out</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- showNav -->
+        <section class="showNav row">
+            <i class="fas fa-home"></i>
+            <a href="#">HOME</a>
+            <span>></span>
+            <a href="#">DASHBOARD</a>
+            <span>></span>
+            <p>MAIN PAGE</p>
+        </section>
+        <!-- Info Section -->
+        <article id="info">
+            <h2>Welcome back Mary!</h2>
+            <span>Get started with the control panel right now</span>
+        </article>
+        <!-- ColorDiv Section -->
+        <section class="colorDiv row">
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="color fs">
+                    <div class="icon">
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <div class="para">
+                        <span>428</span>
+                        <span>New posts</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="color sc">
+                    <div class="icon">
+                        <i class="fas fa-folder-open"></i>
+                    </div>
+                    <div class="para">
+                        <span>128</span>
+                        <span>New comments</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="color th">
+                    <div class="icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <div class="para">
+                        <span>$ 4,870</span>
+                        <span>Earnings</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="color fr">
+                    <div class="icon">
+                        <i class="far fa-user"></i>
+                    </div>
+                    <div class="para">
+                        <span>407</span>
+                        <span>New clients</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Calendar and Acordion Section -->
+        <section class="center row">
+            <!-- Calendar -->
+            <div class="col-xl-8 col-md-12 calendar">
+                <main class="row">
+                    <div class="col-xl-5 col-12 dateSection">
+                        <div class="top">
+                            <p>
+                                <span id="day"></span>
+                                <span id="weeks"></span>
+                            </p>
+                            <p>
+                                <span id="months"></span>
+                                <span id="year"></span>
+                            </p>
+                        </div>
+                        <div class="bottom">
+                            <ul>
+                                <li>
+                                    <i class="far fa-circle"></i>
+                                    <span>Call to Mary</span>
+                                </li>
+                                <li>
+                                    <i class="far fa-circle"></i>
+                                    <span>Buy milk on the way home</span>
+                                </li>
+                                <li>
+                                    <i class="far fa-circle"></i>
+                                    <span>Finish the current template</span>
+                                </li>
+                                <li>
+                                    <i class="far fa-circle"></i>
+                                    <span>Write documentation</span>
+                                </li>
+                            </ul>
+                            <a href="#">See all 17 tasks</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-12 cal">
+                        <div class="calendar">
+                            <div id="datepicker"></div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <!-- Acordion -->
+            <div class="col-xl-4 col-md-12 accordion" id="accor">
+                <header>
+                    <h3>Project Feed</h3>
+                    <i class="fas fa-plus" id="clickNewDiv"></i>
+                </header>
+                <!-- will Open When at Click -->
+                <aside class="clickOpen">
+                    <header>
+                        <h3>Create project</h3>
+                        <i class="fas fa-times" id="clickOldDiv"></i>
+                    </header>
+                    <main>
+                        <ul>
+                            <li>
+                                <label>PROJECT NAME</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                                </div>
+                            </li>
+                            <li>
+                                <label>PROJECT NAME</label>
+                                <div class="input-group mb-3">
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                        <option selected>Remove...</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapseFile" aria-expanded="true" aria-controls="collapseFile"
+                                        id="headingFile">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link">
+                                                <label for="">
+                                                    <b>File</b>
+                                                </label>
+                                            </button>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseFile" class="collapse" aria-labelledby="headingFile" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control" placeholder="FileName" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-outline-secondary" type="button">
+                                                        <i class="fas fa-plus" id="clickNewDiv"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <label>PROJECT COLOR</label>
+                                <section>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </section>
+                            </li>
+                            <li>
+                                <label>PROJECT COMPLETED IN (%)
+                                </label>
+                                <div class="slidecontainer">
+                                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                                    <p>Value:
+                                        <span id="demo"></span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-primary">Save Project</button>
+                            </li>
+                        </ul>
+                    </main>
+                </aside>
+                <main>
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <div class="left">
+                                            <div class="img fs"></div>
+                                            <article>
+                                                <p>Miled Perry</p>
+                                                <p>Update:
+                                                    <span>CMS</span>
+                                                </p>
+                                            </article>
+                                        </div>
+                                        <div class="right">
+                                            <p>
+                                                <i class="fas fa-calendar-alt"></i>
+                                                29 Martch 2017
+                                            </p>
+                                            <p>03 : 27 PM</p>
+                                        </div>
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h4>Updated files:</h4>
+                                    <ul>
+                                        <li>_badges.scss</li>
+                                        <li>_clearfix.scss</li>
+                                        <li>main-font.woff</li>
+                                    </ul>
+                                    <section>
+                                        <span>Project completed in</span>
+                                        <span>70%</span>
+                                    </section>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" style="width: 37%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <div class="left">
+                                            <div class="img sc"></div>
+                                            <article>
+                                                <p>Miled Perry</p>
+                                                <p>Update:
+                                                    <span>CMS</span>
+                                                </p>
+                                            </article>
+                                        </div>
+                                        <div class="right">
+                                            <p>
+                                                <i class="fas fa-calendar-alt"></i>
+                                                29 Martch 2017
+                                            </p>
+                                            <p>03 : 27 PM</p>
+                                        </div>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h4>Updated files:</h4>
+                                    <ul>
+                                        <li>_badges.scss</li>
+                                        <li>_clearfix.scss</li>
+                                        <li>main-font.woff</li>
+                                    </ul>
+                                    <section>
+                                        <span>Project completed in</span>
+                                        <span>70%</span>
+                                    </section>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" style="width: 37%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <div class="left">
+                                            <div class="img th"></div>
+                                            <article>
+                                                <p>Miled Perry</p>
+                                                <p>Update:
+                                                    <span>CMS</span>
+                                                </p>
+                                            </article>
+                                        </div>
+                                        <div class="right">
+                                            <p>
+                                                <i class="fas fa-calendar-alt"></i>
+                                                29 Martch 2017
+                                            </p>
+                                            <p>03 : 27 PM</p>
+                                        </div>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h4>Updated files:</h4>
+                                    <ul>
+                                        <li>_badges.scss</li>
+                                        <li>_clearfix.scss</li>
+                                        <li>main-font.woff</li>
+                                    </ul>
+                                    <section>
+                                        <span>Project completed in</span>
+                                        <span>70%</span>
+                                    </section>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" style="width: 37%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                                        <div class="left">
+                                            <div class="img fr"></div>
+                                            <article>
+                                                <p>Miled Perry</p>
+                                                <p>Update:
+                                                    <span>CMS</span>
+                                                </p>
+                                            </article>
+                                        </div>
+                                        <div class="right">
+                                            <p>
+                                                <i class="fas fa-calendar-alt"></i>
+                                                29 Martch 2017
+                                            </p>
+                                            <p>03 : 27 PM</p>
+                                        </div>
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h4>Updated files:</h4>
+                                    <ul>
+                                        <li>_badges.scss</li>
+                                        <li>_clearfix.scss</li>
+                                        <li>main-font.woff</li>
+                                    </ul>
+                                    <section>
+                                        <span>Project completed in</span>
+                                        <span>70%</span>
+                                    </section>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" style="width: 37%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
+                                        <div class="left">
+                                            <div class="img fv"></div>
+                                            <article>
+                                                <p>Miled Perry</p>
+                                                <p>Update:
+                                                    <span>CMS</span>
+                                                </p>
+                                            </article>
+                                        </div>
+                                        <div class="right">
+                                            <p>
+                                                <i class="fas fa-calendar-alt"></i>
+                                                29 Martch 2017
+                                            </p>
+                                            <p>03 : 27 PM</p>
+                                        </div>
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h4>Updated files:</h4>
+                                    <ul>
+                                        <li>_badges.scss</li>
+                                        <li>_clearfix.scss</li>
+                                        <li>main-font.woff</li>
+                                    </ul>
+                                    <section>
+                                        <span>Project completed in</span>
+                                        <span>70%</span>
+                                    </section>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" style="width: 37%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </main>
+
+            </div>
+        </section>
+        <!-- Graghic, Task list and Total Progress-->
+        <section id="graphicSection" class="row graphicSection">
+            <!-- Graghic -->
+            <div class="col-xl-4 col-md-12 col-12 graphic">
+                <header>
+                    <h4>Sales statistics</h4>
+                </header>
+                <ul>
+                    <li id="first">By Days</li>
+                    <li id="second">By Months</li>
+                    <li id="third">By Years</li>
+                </ul>
+                <main>
+                    <section class="opt active" id="first">
+                        <div id="chartContainer1" style="height:200px; width: 100%;"></div>
+                    </section>
+                    <section class="opt" id="second">
+                        <div id="chartContainer2" style="height:200px; width: 100%;"></div>
+                    </section>
+                    <section class="opt" id="third">
+                        <div id="chartContainer3" style="height:200px; width: 100%;"></div>
+                    </section>
+                </main>
+                <footer>
+                    <ul class="row">
+                        <li class="col-xl-4 col-2">
+                            <i class="fas fa-square-full"></i>January</li>
+                        <li class="col-xl-4 col-2">
+                            <i class="fas fa-square-full"></i>February</li>
+                        <li class="col-xl-4 col-2">
+                            <i class="fas fa-square-full"></i>March</li>
+                        <li class="col-xl-4 col-2">
+                            <i class="fas fa-square-full"></i>April</li>
+                        <li class="col-xl-4 col-2">
+                            <i class="fas fa-square-full"></i>May</li>
+                        <li class="col-xl-4 col-2">
+                            <i class="fas fa-square-full"></i>June</li>
+                    </ul>
+                </footer>
+            </div>
+            <!-- Task list -->
+            <div class="col-xl-4 col-md-6 col-12 task">
+                <header>
+                    <h4>Task list</h4>
+                </header>
+                <main>
+                    <ul>
+                        <li class="liCheckBox">
+                            <div class="left">
+                                <input type="checkbox">
+                                <p>Call to Mary</p>
+                                <span>today</span>
+                            </div>
+                            <div class="right">
+                                <i class="fas fa-angle-down" data-toggle="collapse" data-target="#collapseFirst" aria-expanded="true" aria-controls="collapseFirst"></i>
+                                <i class="fas fa-times icon"></i>
+                            </div>
+                        </li>
+                        <div id="collapseFirst" class="collapse" aria-labelledby="headingFirst" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>
+                                    <i class="fas fa-user"></i>
+                                    <span>Created by: Valery</span>
+                                </p>
+                                <p>
+                                    <i class="fas fa-clock"></i>
+                                    <span>09:27 PM</span>
+                                </p>
+                                <div>
+                                    <button type="button" class="btn btn-success">Finish</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <li class="liCheckBox">
+                            <div class="left">
+                                <input type="checkbox">
+                                <p>Buy milk on the way home</p>
+
+                            </div>
+                            <div class="right">
+                                <i class="fas fa-angle-down" data-toggle="collapse" data-target="#collapseSecond" aria-expanded="true" aria-controls="collapseSecond"></i>
+                                <i class="fas fa-times icon"></i>
+                            </div>
+                        </li>
+                        <div id="collapseSecond" class="collapse" aria-labelledby="headingSecond" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>
+                                    <i class="fas fa-user"></i>
+                                    <span>Created by: Valery</span>
+                                </p>
+                                <p>
+                                    <i class="fas fa-clock"></i>
+                                    <span>09:27 PM</span>
+                                </p>
+                                <div>
+                                    <button type="button" class="btn btn-success">Finish</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <li class="liCheckBox">
+                            <div class="left">
+                                <input type="checkbox">
+                                <p>Finish the previous task </p>
+                                <span>important</span>
+                            </div>
+                            <div class="right">
+                                <i class="fas fa-angle-down" data-toggle="collapse" data-target="#collapseThird" aria-expanded="true" aria-controls="collapseThird"></i>
+                                <i class="fas fa-times icon"></i>
+                            </div>
+                        </li>
+                        <div id="collapseThird" class="collapse" aria-labelledby="headingThird" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>
+                                    <i class="fas fa-user"></i>
+                                    <span>Created by: Valery</span>
+                                </p>
+                                <p>
+                                    <i class="fas fa-clock"></i>
+                                    <span>09:27 PM</span>
+                                </p>
+                                <div>
+                                    <button type="button" class="btn btn-success">Finish</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <li class="liCheckBox">
+                            <div class="left">
+                                <input type="checkbox">
+                                <p>Finish current template</p>
+                                <span>well</span>
+                            </div>
+                            <div class="right">
+                                <i class="fas fa-angle-down" data-toggle="collapse" data-target="#collapseFourth" aria-expanded="true" aria-controls="collapseFourth"></i>
+                                <i class="fas fa-times icon"></i>
+                            </div>
+                        </li>
+                        <div id="collapseFourth" class="collapse" aria-labelledby="headingFourth" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>
+                                    <i class="fas fa-user"></i>
+                                    <span>Created by: Valery</span>
+                                </p>
+                                <p>
+                                    <i class="fas fa-clock"></i>
+                                    <span>09:27 PM</span>
+                                </p>
+                                <div>
+                                    <button type="button" class="btn btn-success">Finish</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <li class="liCheckBox">
+                            <div class="left">
+                                <input type="checkbox">
+                                <p>Write documentation</p>
+
+                            </div>
+                            <div class="right">
+                                <i class="fas fa-angle-down" data-toggle="collapse" data-target="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth"></i>
+                                <i class="fas fa-times icon"></i>
+                            </div>
+                        </li>
+                        <div id="collapseFifth" class="collapse" aria-labelledby="headingFifth" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>
+                                    <i class="fas fa-user"></i>
+                                    <span>Created by: Valery</span>
+                                </p>
+                                <p>
+                                    <i class="fas fa-clock"></i>
+                                    <span>09:27 PM</span>
+                                </p>
+                                <div>
+                                    <button type="button" class="btn btn-success">Finish</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <li class="liCheckBox">
+                            <div class="left">
+                                <input type="checkbox">
+                                <p>Make statistics block</p>
+
+                            </div>
+                            <div class="right">
+                                <i class="fas fa-angle-down" data-toggle="collapse" data-target="#collapseSixth" aria-expanded="true" aria-controls="collapseSixth"></i>
+                                <i class="fas fa-times icon"></i>
+                            </div>
+                        </li>
+                        <div id="collapseSixth" class="collapse" aria-labelledby="headingSixth" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>
+                                    <i class="fas fa-user"></i>
+                                    <span>Created by: Valery</span>
+                                </p>
+                                <p>
+                                    <i class="fas fa-clock"></i>
+                                    <span>09:27 PM</span>
+                                </p>
+                                <div>
+                                    <button type="button" class="btn btn-success">Finish</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <li class="liCheckBox">
+                            <div class="left">
+                                <input type="checkbox">
+                                <p>Add element to this list</p>
+
+                            </div>
+                            <div class="right">
+                                <i class="fas fa-angle-down" data-toggle="collapse" data-target="#collapseSeventh" aria-expanded="true" aria-controls="collapseSeventh"></i>
+                                <i class="fas fa-times icon"></i>
+                            </div>
+                        </li>
+                        <div id="collapseSeventh" class="collapse" aria-labelledby="headingSeventh" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>
+                                    <i class="fas fa-user"></i>
+                                    <span>Created by: Valery</span>
+                                </p>
+                                <p>
+                                    <i class="fas fa-clock"></i>
+                                    <span>09:27 PM</span>
+                                </p>
+                                <div>
+                                    <button type="button" class="btn btn-success">Finish</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <li class="liCheckBox">
+                            <div class="left">
+                                <input type="checkbox">
+                                <p>Finish list</p>
+
+                            </div>
+                            <div class="right">
+                                <i class="fas fa-angle-down" data-toggle="collapse" data-target="#collapseEightth" aria-expanded="true" aria-controls="collapseEightth"></i>
+                                <i class="fas fa-times icon"></i>
+                            </div>
+                        </li>
+                        <div id="collapseEightth" class="collapse" aria-labelledby="headingEightth" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>
+                                    <i class="fas fa-user"></i>
+                                    <span>Created by: Valery</span>
+                                </p>
+                                <p>
+                                    <i class="fas fa-clock"></i>
+                                    <span>09:27 PM</span>
+                                </p>
+                                <div>
+                                    <button type="button" class="btn btn-success">Finish</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </main>
+            </div>
+            <!-- Progress -->
+            <div class="col-xl-4 col-md-6 col-12 totalProgress">
+                <header>
+                    <h4>Total progress</h4>
+                </header>
+                <main>
+                    <div class="circle">
+                        <p>79</p>
+                    </div>
+                </main>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                <footer class="treeSec">
+                    <div>
+                        <p>Total</p>
+                        <span>100</span>
+                    </div>
+                    <div>
+                        <p>Approved</p>
+                        <span>79</span>
+                    </div>
+                    <div>
+                        <p>Rejected</p>
+                        <span>21</span>
+                    </div>
+                </footer>
+            </div>
+        </section>
+        <!-- Footer Section -->
+        <footer id="foot" class="row">
+            <!-- Left Section -->
+            <div class="col-md-8 left">
+                <header>
+                    <h4>Recent comments</h4>
+                </header>
+                <main>
+                    <section class="top">
+                        <div class="img first">
+
+                        </div>
+                        <div class="text">
+                            <h5>Laura Cole</h5>
+                            <p>
+                                <span>2 days ago at 11:27 PM </span>
+                                <span>Pending</span>
+                            </p>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                                classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
+                            <button type="button" class="btn btn-success">Approve</button>
+                            <button type="button" class="btn btn-danger">Reject</button>
+                        </div>
+                    </section>
+                    <section class="bottom">
+                        <div class="img second">
+
+                        </div>
+                        <div class="text">
+                            <h5>Crystal Burton</h5>
+                            <p>
+                                <span>2 days ago at 11:27 PM </span>
+                                <span>Approved</span>
+                            </p>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                                classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
+                        </div>
+                    </section>
+                </main>
+            </div>
+            <!-- Right Section -->
+            <div class="col-md-4 right">
+                <header>
+                    <h4>Recent activity</h4>
+                </header>
+                <main>
+                    <ul>
+                        <li>
+                            <p>
+                                3 minutes ago
+                            </p>
+                            <span>Valery is now following you</span>
+                        </li>
+                        <li>
+                            <p>
+                                12 minutes ago
+                            </p>
+                            <span>The CS has been successfully updated.</span>
+                        </li>
+                        <li>
+                            <p>Thu, 18 Jan 09:27 PM</p>
+                            <span>On the main disk runs out of space.</span>
+                        </li>
+                        <li>
+                            <p>Sun, 14 Jan 07:32 PM</p>
+                            <span>Ashley is logged in.</span>
+                        </li>
+                        <li>
+                            <p>
+                                3 minutes ago
+                            </p>
+                            <span>Valery is now following you</span>
+                        </li>
+                        <li>
+                            <p>
+                                12 minutes ago
+                            </p>
+                            <span>The CS has been successfully updated.</span>
+                        </li>
+                        <li>
+                            <p>Thu, 18 Jan 09:27 PM</p>
+                            <span>On the main disk runs out of space.</span>
+                        </li>
+                        <li>
+                            <p>Sun, 14 Jan 07:32 PM</p>
+                            <span>Ashley is logged in.</span>
+                        </li>
+                        <li>
+                            <p>Thu, 18 Jan 09:27 PM</p>
+                            <span>On the main disk runs out of space.</span>
+                        </li>
+                    </ul>
+                </main>
+            </div>
+        </footer>
+    </main>
+    <!-- MAIN SECTION END-->
+
+
+    <script src="js/main.js"></script>
+    <script src="js/jquery.js"></script>
+    
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+    <script src="js/dcalendar.picker.js"></script>
+
+
+    <script>
+        //calendar section
+        $('#datepicker').dcalendar();
+
+
+
+        // Sales statistics
+
+        var chart1 = new CanvasJS.Chart("chartContainer1", {
+            animationEnabled: true,
+            theme: "light2",
+            title: {
+                text: "",
+            },
+            axisY: {
+                includeZero: false
+            },
+            data: [{
+                type: "line",
+                dataPoints: [
+                    { y: 450 },
+                    { y: 414 },
+                    { y: 520, indexLabel: "highest", markerColor: "red", markerType: "triangle" },
+                    { y: 460 },
+                    { y: 450 },
+                    { y: 500 },
+                    { y: 480 },
+                    { y: 480 },
+                    { y: 410, indexLabel: "lowest", markerColor: "DarkSlateGrey", markerType: "cross" },
+                    { y: 500 },
+                    { y: 480 },
+                    { y: 510 }
+                ]
+            }]
+        });
+        chart1.render();
+
+
+
+        var chart2 = new CanvasJS.Chart("chartContainer2", {
+            animationEnabled: true,
+            theme: "light2",
+            title: {
+                text: ""
+            },
+            axisY: {
+                includeZero: false
+            },
+            data: [{
+                type: "line",
+                dataPoints: [
+                    { y: 450 },
+                    { y: 414 },
+                    { y: 520, indexLabel: "highest", markerColor: "red", markerType: "triangle" },
+                    { y: 460 },
+                    { y: 450 },
+                    { y: 410, indexLabel: "lowest", markerColor: "DarkSlateGrey", markerType: "cross" },
+                    { y: 500 },
+                    { y: 480 },
+                    { y: 510 }
+                ]
+            }]
+        });
+        chart2.render();
+
+
+
+        var chart3 = new CanvasJS.Chart("chartContainer3", {
+            animationEnabled: true,
+            theme: "light2",
+            title: {
+                text: ""
+            },
+            axisY: {
+                includeZero: false
+            },
+            data: [{
+                type: "line",
+                dataPoints: [
+                    { y: 850 },
+                    { y: 414 },
+                    { y: 820, indexLabel: "highest", markerColor: "red", markerType: "triangle" },
+                    { y: 480 },
+                    { y: 880 },
+                    { y: 410, indexLabel: "lowest", markerColor: "DarkSlateGrey", markerType: "cross" },
+                    { y: 500 },
+                    { y: 180 },
+                    { y: 1010 }
+                ]
+            }]
+        });
+        chart3.render();
+
+    </script>
+
+</body>
+
+</html>
